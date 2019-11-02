@@ -68,38 +68,39 @@
 //     console.log('sai mất rồi')
 // }
 
-// let quizzes = 
-// [
-//     {// Mô tả trắc nghiệm
-//         question: 'Con nhện có mấy chân?',
-//         choices: [
-//             '1 chân',
-//             '2 chân',
-//             '3 chân',
-//             '6 chân'
-//         ],    
-//         answer: 3
-//     },
-//   {
-//         question: 'Con gà có mấy chân?',
-//         choices: [
-//             '10 chân',
-//             '9 chân',
-//             '2 chân',
-//             '1 chân'
-//          ],
-//          answer: 2
+let quizzes = 
+[
+    {// Mô tả trắc nghiệm
+        question: 'Con nhện có mấy chân?',
+        choices: [
+            '1 chân',
+            '2 chân',
+            '3 chân',
+            '6 chân'
+        ],    
+        answer: 3
+    },
+  {
+        question: 'Con gà có mấy chân?',
+        choices: [
+            '10 chân',
+            '9 chân',
+            '2 chân',
+            '1 chân'
+         ],
+         answer: 2
 
-//   }      
+  }      
     
-// ]
-// // console.log(quizzes[0].question) 
-// for (let i=0; i<quizzes.length; i +=1){
-//     console.log(quizzes[i].question)
-//      let choices = quizzes[i].choices; 
-// for(let j=0; j < choices.length; j += 1) { 
-//     console.log(j + 1, choices[j])
-// }
+]
+// console.log(quizzes[0].question) 
+for (let i=0; i<quizzes.length; i +=1){
+    console.log(quizzes[i].question)
+     let choices = quizzes[i].choices; 
+for(let j=0; j < choices.length; j += 1) { 
+    console.log(j + 1, choices[j])
+}
+
 // let userChoice = prompt('1 or 2 or 3 or 4')
 // if (userChoice - 1 == quizzes[i].answer) {
 //     console.log('hurrayy')
@@ -109,19 +110,19 @@
 //     }
 // }
 
-let laptop = {
-    HP: 20,
-    DELL: 50,
-    MACBOOK: 12,
-    ASUS: 30
-}
-console.log(laptop)
+// let laptop = {
+//     HP: 20,
+//     DELL: 50,
+//     MACBOOK: 12,
+//     ASUS: 30
+// }
+// console.log(laptop)
 
-let m = laptop ['MACBOOK']
-console.log(m)
+// let m = laptop ['MACBOOK']
+// console.log(m)
 
-let userchoice = prompt('choose a brand')
-console.log(laptop[userchoice])
+// let userchoice = prompt('choose a brand')
+// console.log(laptop[userchoice])
 
 
 // for (let i = 0; i<quiz.answer.length; i+=1) {
@@ -133,5 +134,4 @@ console.log(laptop[userchoice])
 // }
 // else {
 //     console.log('sai mất rồi')
-// }
-
+}
