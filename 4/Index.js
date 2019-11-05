@@ -235,21 +235,21 @@ Skill1 =
     Name: 'Tackle',
     'Minimumlevel': 1,
     Damage: 5,
-    'Hit rate': 0.3
+    'Hitrate': 0.3
 }, 
 Skill2 =
 {
     'Name': 'Quick attack',
     'Minimumlevel': 2,
     Damage: 3,
-    'Hit rate': 0.5
+    'Hitrate': 0.5
 },
 Skill3 = 
 {
     Name: 'Strong Kick',
     'Minimumlevel': 4,
     Damage: 9,
-    'Hit rate': 0.2
+    'Hitrate': 0.2
 }
 ]
 
@@ -266,7 +266,7 @@ Skill3 =
 let userlevel = prompt('choose level 1 or 2 or 3')
 for (let i=0; i < skilllist.length; i +=1){
     console.log(skilllist[i])
-    if(userlevel == skilllist[i].Minimumlevel) { 
+    if(userlevel == skilllist[i].Minimumlevel, Math.random() < skilllist[i].Hitrage) { 
         console.log('you are in', skilllist[i].Damage)
     }
     else {
