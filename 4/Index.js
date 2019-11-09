@@ -266,7 +266,7 @@ Skill3 =
 let userlevel = prompt('choose level 1 or 2 or 3')
 for (let i=0; i < skilllist.length; i +=1){
     console.log(skilllist[i])
-    if(userlevel == skilllist[i].Minimumlevel, Math.random() < skilllist[i].Hitrage) { 
+    if(userlevel == skilllist[i].Minimumlevel, Math.random(0, 1) < skilllist[i].Hitrage) { 
         console.log('you are in', skilllist[i].Damage)
     }
     else {
