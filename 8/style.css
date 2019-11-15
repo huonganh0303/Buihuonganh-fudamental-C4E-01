@@ -1,0 +1,20 @@
+#title1 {
+    color: red;
+    font-family: 'Muli', 'Helvetica', 'sans-serif';
+    text-align: center;
+}
+.blue-text {
+    color: blue
+
+}
+#image{
+    width: 50px;
+    height: 50px;
+    background-color: 10px;
+    /* padding: 25px; */
+    border: 10px dotted blue
+    margin-top: 25px 10px; */;
+    /* background-image: url('./');
+    background-repeat: no-repeat;
+    background-position: -50px 100px;
+}
