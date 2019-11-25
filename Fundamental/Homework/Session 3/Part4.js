@@ -18,3 +18,4 @@ for(let i = 0; i<scores.length; i+=1) {
     }
 }
 console.log(scores)
+
